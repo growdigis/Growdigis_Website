@@ -8,7 +8,7 @@
                 </a>
                 </div>
                 <div class="show-on-mobile hide-on-desktop enquire">
-                      <a class="enquire-btn" href="contactus?id=enquire">Contact Us</a>
+                      <a class="enquire-btn" href="contactus.php?id=enquire">Contact Us</a>
                 </div>
                 <button class="navbar-toggler" type="button" data-toggle="collapse"
                     data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
@@ -21,7 +21,7 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav m-auto">
                         <li class="nav-item">
-                            <a class="title" href="services">Services</a>
+                            <a class="title" href="services.php">Services</a>
                             <div class="sub-menu">
                                 <div class="row">
                                     <div class="col sub-menu-section">
@@ -111,14 +111,14 @@
                             </div>
                         </li>
                         <li class="nav-item">
-                            <a class="title" href="products">Products</a>
+                            <a class="title" href="products.php">Products</a>
                         </li>
                         <li class="nav-item">
-                            <a class="title" href="aboutUs">About Us </a>
+                            <a class="title" href="aboutUs.php">About Us </a>
                         </li>
                         <li>
                             <div class="navbar-btn d-none d-lg-inline-block show-on-desktop hide-on-mobile">
-                                <a class="main-btn" href="contactus">Contact Us</a>
+                                <a class="main-btn" href="contactus.php">Contact Us</a>
                             </div>
                         </li>
                     </ul>

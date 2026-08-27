@@ -264,7 +264,7 @@
 
 
 <!--====== Brand ======-->
-<?php include './components/brand'; ?>
+<?php include __DIR__ . '/brand.php'; ?>
 
 <!--====== About ======-->
 <section class="about-area pt-115">
