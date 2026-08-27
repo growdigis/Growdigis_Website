@@ -1,33 +1,267 @@
 <!--====== Home ======-->
+<style>
+    /* ================================
+       HERO SECTION
+    ================================= */
+
+    .header-hero {
+        position: relative;
+        overflow: hidden;
+        min-height: 580px;
+        padding: 70px 0;
+    }
+
+    .header-hero-content {
+        position: relative;
+        z-index: 5;
+        max-width: 800px;
+        padding-top: 10px;
+        margin-left: 40px;
+        text-align: left;
+    }
+
+    /* Main heading */
+    .header-hero-content .hero-title {
+        margin: 0 0 16px;
+        padding: 0;
+
+        color: #050505;
+        font-family: "Poppins", Arial, sans-serif;
+
+        font-size: 52px;
+        font-weight: 800;
+        line-height: 1.12;
+        letter-spacing: -1.5px;
+
+        text-align: left;
+    }
+
+    /* Blue tagline */
+    .header-hero-content .hero-subTitle {
+        display: block;
+
+        margin: 0 0 10px;
+        padding: 0;
+
+        color: #2693e6;
+        font-family: "Poppins", Arial, sans-serif;
+
+        font-size: 32px;
+        font-weight: 500;
+        line-height: 1.25;
+        letter-spacing: -0.5px;
+
+        text-align: left;
+    }
+
+    /* Description */
+    .header-hero-content .hero-description {
+        display: block;
+
+        max-width: 590px;
+        margin: 0;
+        padding: 0;
+
+        color: #111111;
+        font-family: "Poppins", Arial, sans-serif;
+
+        font-size: 26px;
+        font-weight: 400;
+        line-height: 1.48;
+        letter-spacing: -0.3px;
+
+        text-align: left;
+    }
+
+    /* Hero image */
+    .header-hero-image {
+        position: relative;
+        z-index: 2;
+    }
+
+    .header-hero-image .image img {
+        display: block;
+        max-width: 100%;
+        height: auto;
+    }
+
+
+    /* ================================
+       DESKTOP
+    ================================= */
+
+    @media (min-width: 1200px) {
+
+        .header-hero {
+            min-height: 580px;
+        }
+
+        .header-hero-content {
+            max-width: 650px;
+        }
+
+        .header-hero-content .hero-title {
+            font-size: 52px;
+        }
+
+        .header-hero-content .hero-subTitle {
+            font-size: 32px;
+        }
+
+        .header-hero-content .hero-description {
+            font-size: 26px;
+        }
+    }
+
+
+    /* ================================
+       LAPTOP
+    ================================= */
+
+    @media (min-width: 992px) and (max-width: 1199px) {
+
+        .header-hero-content {
+            max-width: 570px;
+        }
+
+        .header-hero-content .hero-title {
+            font-size: 44px;
+            letter-spacing: -1px;
+        }
+
+        .header-hero-content .hero-subTitle {
+            font-size: 28px;
+        }
+
+        .header-hero-content .hero-description {
+            font-size: 22px;
+            max-width: 510px;
+        }
+    }
+
+
+    /* ================================
+       TABLET / MOBILE
+    ================================= */
+
+    @media (max-width: 991px) {
+
+        .header-hero {
+            min-height: auto;
+            padding: 70px 0 50px;
+        }
+
+        .header-hero-content {
+            max-width: 100%;
+            padding: 0 20px;
+            margin-left: 0;
+            text-align: center;
+        }
+
+        .header-hero-content .hero-title {
+            font-size: 40px;
+            line-height: 1.15;
+            letter-spacing: -0.8px;
+            text-align: center;
+        }
+
+        .header-hero-content .hero-subTitle {
+            font-size: 27px;
+            text-align: center;
+        }
+
+        .header-hero-content .hero-description {
+            max-width: 600px;
+            margin: 0 auto;
+            font-size: 21px;
+            line-height: 1.5;
+            text-align: center;
+        }
+
+        .header-hero-image {
+            justify-content: center;
+            margin-top: 40px;
+        }
+    }
+
+
+    /* ================================
+       SMALL MOBILE
+    ================================= */
+
+    @media (max-width: 575px) {
+
+        .header-hero {
+            padding: 55px 0 40px;
+        }
+
+        .header-hero-content {
+            padding: 0 15px;
+        }
+
+        .header-hero-content .hero-title {
+            font-size: 31px;
+            line-height: 1.17;
+            letter-spacing: -0.5px;
+        }
+
+        .header-hero-content .hero-subTitle {
+            font-size: 22px;
+            line-height: 1.3;
+        }
+
+        .header-hero-content .hero-description {
+            font-size: 18px;
+            line-height: 1.5;
+        }
+    }
+</style>
+
 <div class="header-hero bg_cover d-lg-flex align-items-center"
     style="background-image: url(assets/images/background.png)">
+
     <div class="container">
         <div class="row">
             <div class="col-lg-7">
                 <div class="header-hero-content">
-                    <h1 class="hero-title wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.2s">
-                        <b>Ready to grow?</b> </br>
-                    <span class="hero-subTitle">Let’s make it happen.</br>
-                     <span style="color: black">Tell us about your project.</span></span>
+
+                    <h1 class="hero-title wow fadeInUp"
+                        data-wow-duration="1s"
+                        data-wow-delay="0.2s">
+                        Your Brand Is The Feeling<br>
+                        People Remember
                     </h1>
-                    <p class="header-description text wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.5s">Growdigis IT Solutions is a digital company focused on creating impactful solutions in the design and digital industry. We specialize in innovative technologies that drive transformation and deliver results, helping businesses stay ahead in a rapidly evolving digital landscape.</p>
-                    <!-- <div class="header-singup wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.8s">
-                    <form name="HomeEmail" action="components/process_form" method="POST">
-                        <input type="email"  name="email" id="email" required placeholder="Enter your mail">
-                        <button id="submitBtn" name="Submit" class="main-btn" value="Submit">Enquire</button>
-                    </form>
-                    </div> -->
-             </div>
+
+                    <div class="hero-subTitle wow fadeInUp"
+                        data-wow-duration="1s"
+                        data-wow-delay="0.4s">
+                        Let’s make it happen.
+                    </div>
+
+                    <p class="hero-description wow fadeInUp"
+                        data-wow-duration="1s"
+                        data-wow-delay="0.6s">
+                        We build scroll-stopping content and social strategies
+                        for brands that want to grow.
+                    </p>
+
+                </div>
             </div>
         </div>
     </div>
-    <div class="header-hero-image d-flex align-items-center wow fadeInRightBig" data-wow-duration="1s"
+
+    <div class="header-hero-image d-flex align-items-center wow fadeInRightBig"
+        data-wow-duration="1s"
         data-wow-delay="1.1s">
+
         <div class="image">
             <img src="assets/images/hero-image.png" alt="Hero Image">
         </div>
+
     </div>
+
 </div>
+
 
 <!--====== Brand ======-->
 <?php include './components/brand'; ?>
@@ -126,9 +360,8 @@
                             <img src="assets/images/service-3.png" alt="Icon">
                         </div>
                         <div class="service-content media-body">
-                            <h4 class="service-title">Design and Animation</h4>
-                            <p class="text">Our designers specialise in web, graphics, 3D modeling and animation. We
-                                deliver the best results for your brand to stand out from the rest..</p>
+                            <h4 class="service-title">Social Media</h4>
+                            <p class="text">Strategy, management & growth</p>
                         </div>
                         <div class="shape shape-1">
                             <img src="assets/images/shape/shape-1.svg" alt="shape">
@@ -144,9 +377,8 @@
                             <img src="assets/images/service-2.png" alt="Icon">
                         </div>
                         <div class="service-content media-body">
-                            <h4 class="service-title">Web & App Development</h4>
-                            <p class="text">Development is both an outcome and an approach. We start by tackling
-                                what you want to convey and the problem you want to solve.</p>
+                            <h4 class="service-title">Branding</h4>
+                            <p class="text">Visual identity & Social Presence</p>
                         </div>
                         <div class="shape shape-3">
                             <img src="assets/images/shape/shape-3.svg" alt="shape">
@@ -159,9 +391,8 @@
                             <img src="assets/images/service-1.png" alt="Icon">
                         </div>
                         <div class="service-content media-body">
-                            <h4 class="service-title">Digital Marketing</h4>
-                            <p class="text">Brands aren’t built, They’re earned. We design customer experience in a
-                                way that attracts loyalty to your brand and tell them who you are.</p>
+                            <h4 class="service-title">Content Creation</h4>
+                            <p class="text">Engaging stories that resonate with your audience</p>
                         </div>
                         <div class="shape shape-4">
                             <img src="assets/images/shape/shape-4.svg" alt="shape">
@@ -190,7 +421,8 @@
             <div class="col-sm-8">
                 <div class="section-title pb-30 wow fadeIn" data-wow-duration="1s" data-wow-delay="0.4s">
                     <h6 class="sub-title">PROJECT</h6>
-                    <h4 class="title">Project <span>Gallery</span></h4>
+                    <h4 class="title">Made to be noticed.</h4>
+                    <p>See what we’ve been creating. </p>
                 </div>
             </div>
             <div class="col-sm-4">
@@ -483,9 +715,7 @@
                         <li></li>
                         <li></li>
                     </ul>
-                    <p class="text">A happy customer can simply take out their phone, write an emotional review, and
-                        post it for the world to see — and depending on our customer's social following, that review
-                        could potentially influence millions of people.<br> <br></p>
+                    <p class="text">Don’t take our word for it... take theirs. A single genuine review from a happy customer can instantly reach and influence millions. We are deeply grateful for the powerful stories our community shares about us every day.<br> <br></p>
                 </div>
             </div>
             <div class="col-lg-6">
@@ -609,3 +839,9 @@
         </div>
     </div>
 </section>
+<!-- Poppins Font -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap"
+    rel="stylesheet">
