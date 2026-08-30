@@ -100,8 +100,7 @@
                         <div class="testimonial-content-wrapper-2">
                             <div class="single-testimonial">
                                 <div class="testimonial-text">
-                                    <p class="text">"GrowDigis has truly transformed our online presence. Their web development services are exceptional,
-                                     delivering a visually stunning and seamless website that captivates our audience. Highly recommended!" </p>
+                                    <p class="text">"GrowDigi helped us look at our brand from a completely different perspective, bringing our branding, website and visual communication together with real clarity." </p>
                             </p>
                                 </div>
                                 <div class="testimonial-author d-sm-flex justify-content-between">

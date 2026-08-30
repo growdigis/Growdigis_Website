@@ -25,94 +25,87 @@
                             <div class="sub-menu">
                                 <div class="row">
                                     <div class="col sub-menu-section">
-                                        <div class="title">3D Services</div>
-                                        <ul>
-                                            <li><a href="3d_services?id=modellingTexture">3D Modelling & Texturing</a></li>   
-                                            <li><a href="3d_services?id=assetCreation">3D Asset Creation</a></li>
-                                            <li><a href="3d_services?id=rigging">Rigging</a></li>
-                                            <li><a href="3d_services?id=animation3d">3D Animation</a></li>
+                                        <div class="title">Strategy</div>
+                                        <ul class="">
+                                            <li><a href="strategy?id=3D_Animation">Brand & Audience Research</a></li>                
+                                            <li><a href="3d_services?id=3D_Rendering">Content Strategy</a></li>
+                                            <li><a href="3d_services?id=3D_Animation">Growth Strategy</a></li>
                                         </ul>
                                     </div>
                                     <div class="col sub-menu-section">
-                                        <div class="title">Graphic Services</div>
+                                        <div class="title">Content Creation</div>
                                         <ul class="">
-                                            <li><a href="graphic_services?id=Branding">Branding</a></li>                
-                                            <li><a href="graphic_services?id=Graphic_Designs">Graphic Design</a></li>
-                                            <li><a href="graphic_services?id=Video_Production">Video Production</a></li>
+                                            <li><a href="graphic_services?id=Branding">Content Script</a></li>                
+                                            <li><a href="graphic_services?id=Graphic_Designs">Reels</a></li>
+                                            <li><a href="graphic_services?id=Video_Production">Posts & Carousels</a></li>
+                                            <li><a href="graphic_services?id=Photography">Stories</a></li>
                                         </ul>
                                     </div>
                                     <div class="col sub-menu-section">
-                                        <div class="title">Marketing Services</div>
+                                        <div class="title">Photo & Video</div>
                                         <ul class="">
-                                            <li><a href="marketing_services?id=Youtube_Marketing">Youtube Marketing</a></li>         
-                                            <li><a href="marketing_services?id=Google_Marketing">Google Marketing</a></li>
-                                            <li><a href="marketing_services?id=Social_Media_Marketing">Social Media Marketing</a></li>
-                                            <li><a href="marketing_services?id=E_Mail_Marketing">E-Mail Marketing</a></li>
+                                            <li><a href="marketing_services?id=Youtube_Marketing">Video Shooting</a></li>         
+                                            <li><a href="marketing_services?id=Google_Marketing">Photo Editing</a></li>
+                                            <li><a href="marketing_services?id=Social_Media_Marketing">Creative Hooks</a></li>
                                         </ul>
                                     </div>
                                 </div>
 
                                 <div class="row">
                                     <div class="col sub-menu-section">
-                                        <div class="title">Development Services</div>
+                                        <div class="title">Website</div>
                                         <ul class="">
                                             <li><a href="development_services?id=Website_Development">Website Development</a></li>        
-                                            <li><a href="development_services?id=App_Development">App Development</a></li>
-                                            <li><a href="development_services?id=CRM_Solutions">CRM Solutions</a></li>
-                                            <li><a href="development_services?id=IOT_Solutions">IOT Solutions</a></li>
-                                            <li><a href="development_services?id=E_Commerce_Website">E-Commerce</a></li>
+                                            <li><a href="development_services?id=App_Development">Website Design & Content</a></li>
                                         </ul>
                                     </div>
                                     <div class="col sub-menu-section">
-                                        <div class="title">Post Production Services</div>
+                                        <div class="title">Branding & Design</div>
                                         <ul class="">
-                                            <li><a href="post_production_services?id=Video_Editing">Video Editing</a></li>           
-                                            <li><a href="post_production_services?id=Audio_Editing">Audio Editing</a></li>
-                                            <li><a href="post_production_services?id=Visual_Effects">Visual Effects</a></li>
-                                            <li><a href="post_production_services?id=Dubbing">Dubbing</a></li>
-                                            <li><a href="post_production_services?id=Sound_Effects">Sound Effects</a></li>
+                                            <li><a href="post_production_services?id=Video_Editing">Graphic Design</a></li>           
+                                            <li><a href="post_production_services?id=Audio_Editing">Logo and Rebranding</a></li>
+                                            <li><a href="post_production_services?id=Visual_Effects">Brand Identity</a></li>
+                                            <li><a href="post_production_services?id=Sound_Effects">Packaging Design</a></li>
                                         </ul>
                                     </div>
                                     <div class="col sub-menu-section">
-                                        <div class="title">User Interface & Experiance</div>
+                                        <div class="title">User Interface & Experience</div>
                                         <ul class="">
                                             <li><a href="user_interface_and_experience?id=App_Design">App UI/UX Design</a></li>                
                                             <li><a href="user_interface_and_experience?id=Web_Design">Web UI/UX Design</a></li>
-                                            <li><a href="user_interface_and_experience?id=Game_Design">Game UI/UX Design</a></li>
-                                            <li><a href="user_interface_and_experience?id=Smart_Watch">Smart Watch UI/UX Design</a></li>
                                         </ul>
                                     </div>
                                 </div>
 
                                 <div class="row">
                                     <div class="col sub-menu-section">
-                                        <div class="title">Management Services</div>
+                                        <div class="title">Social Media Management</div>
                                         <ul class="">
-                                            <li><a href="management_services?id=Youtube_Management">Youtube Management</a></li>                    
-                                            <li><a href="management_services?id=Social_Media_Management">Social Media Management</a></li>
-                                            <li><a href="management_services?id=Artist_Account_Management">Artist Accounts Management</a></li>
+                                            <li><a href="management_services?id=Social_Media_Management">Posting & Scheduling</a></li>
+                                            <li><a href="management_services?id=Artist_Account_Management">DM Management</a></li>
                                         </ul> <!-- sub menu -->
                                     </div>
                                     <div class="col sub-menu-section">
-                                        <div class="title">Optimizing Services</div>
+                                        <div class="title">Content Growth</div>
                                         <ul class="">
-                                            <li><a href="optimizing_services?id=SEO">SEO</a></li>               
-                                            <li><a href="optimizing_services?id=Google_Analytics">Google Analytics</a></li>
+                                            <li><a href="optimizing_services?id=SEO">SEO & Content </a></li>               
+                                            <li><a href="optimizing_services?id=Google_Analytics">Hashtag & Keyword Strategy</a></li>
                                         </ul> <!-- sub menu -->
                                     </div>
                                     <div class="col sub-menu-section">
-                                        <div class="title">Upcoming Services</div>
+                                        <div class="title">Reporting & Analytics</div>
                                         <ul class="">
-                                            <li><a href="upcoming_sevices?id=Augmented_Reality">Augmented Reality</a></li>      
-                                            <li><a href="upcoming_sevices?id=Virtual_Reality">Virtual Reality</a></li>
-                                        </ul>
+                                            <li><a href="optimizing_services?id=SEO">Performance Tracking </a></li>               
+                                            <li><a href="optimizing_services?id=Google_Analytics">Monthly Reports</a></li>
+                                        </ul> <!-- sub menu -->
                                     </div>
+
                                 </div>
                             </div>
                         </li>
-                        <li class="nav-item">
+                        <!-- <li class="nav-item">
                             <a class="title" href="products.php">Products</a>
-                        </li>
+                        </li> -->
                         <li class="nav-item">
                             <a class="title" href="aboutUs.php">About Us </a>
                         </li>

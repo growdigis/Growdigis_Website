@@ -52,11 +52,9 @@
                             <div class="contact-form mt-20">
                                 <label class="labelText">Services <span style="color: red;">*<span></label>
                                 <select id="multiple-checkboxes" name=service[] multiple="multiple" required>
-                                    <option value="3D Services">3D Services</option>
-                                    <option value="Graphic Services">Graphic Services</option>
+                                    <option value="Graphic Services">Graphic </option>
                                     <option value="Marketing Services">Marketing Services</option>
                                     <option value="Development Services">Development Services</option>
-                                    <option value="Post Production Services">Post Production Services</option>
                                     <option value="User Interface & Experience Services">User Interface & Experience Services</option>
                                     <option value="Management Services">Management Services</option>
                                     <option value="Optimizing Services">Optimizing Services</option>

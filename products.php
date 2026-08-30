@@ -9,7 +9,7 @@
          <?php include './components/styles.php';?>
          <?php include './components/loader.php'; ?>
          <?php include './components/header.php';?>
-         <?php include './components/products.php';?>
+         <!-- <?php include './components/products.php';?> -->
          <?php include './components/footer.php';?>
          <?php include './assets/script.php';?>
     </body>
